@@ -23,9 +23,9 @@ The framework of the model is like this:
  You can download the ADHA dataset from [here](http://mvig.sjtu.edu.cn/publications/adha/download.html)
 
 3. PBLSTM:
-&ensp&ensp1) Get the pose info using [Open Pose](https://github.com/CMU-Perceptual-Computing-Lab/openpose). The output is skeleton videos.
-&ensp&ensp2) Use ./pose/extract.py to get the input of the PBLSTM model.
-&ensp&ensp3) ./PBLSTM/train.py & ./PBLSTM/test.py to train and output the result of the model.
+&emsp &emsp 1) Get the pose info using [Open Pose](https://github.com/CMU-Perceptual-Computing-Lab/openpose). The output is skeleton videos.
+&emsp &emsp 2) Use ./pose/extract.py to get the input of the PBLSTM model.
+&emsp &emsp 3) ./PBLSTM/train.py & ./PBLSTM/test.py to train and output the result of the model.
 
 4. Two-Stream model
     1) Use ./Two_Stream/get_input_data/get_optical_flow    to get the optical flow of the raw video.
