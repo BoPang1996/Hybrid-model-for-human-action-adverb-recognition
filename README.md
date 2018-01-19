@@ -23,22 +23,22 @@ The framework of the model is like this:
  You can download the ADHA dataset from [here](http://mvig.sjtu.edu.cn/publications/adha/download.html)
 
 3. PBLSTM:
-1) Get the pose info using [Open Pose](https://github.com/CMU-Perceptual-Computing-Lab/openpose). The output is skeleton videos.
-2) Use ./pose/extract.py to get the input of the PBLSTM model.
-3) ./PBLSTM/train.py & ./PBLSTM/test.py to train and output the result of the model.
+    1) Get the pose info using [Open Pose](https://github.com/CMU-Perceptual-Computing-Lab/openpose). The output is skeleton videos.
+    2) Use ./pose/extract.py to get the input of the PBLSTM model.
+    3) ./PBLSTM/train.py & ./PBLSTM/test.py to train and output the result of the model.
 
 4. Two-Stream model
-1) Use ./Two_Stream/get_input_data/get_optical_flow    to get the optical flow of the raw video.
-2) Use ./Two_Stream/get_input_data/gettrackingdata.py    to get the input of the two stream video. The output has two folder: "of" and "rgb".("of" folder for motion stream and "rgb" folder for spatial stream)
-3) Use ./Two-Stream/motion/train.py and ./Two-Stream/spatial/train.py to train the model and use ./Two-Stream/Fusion/test.py to output the result.
-、
+    1) Use ./Two_Stream/get_input_data/get_optical_flow    to get the optical flow of the raw video.
+    2) Use ./Two_Stream/get_input_data/gettrackingdata.py    to get the input of the two stream video. The output has two folder: "of" and "rgb".("of" folder for motion stream and "rgb" folder for spatial stream)
+    3) Use ./Two-Stream/motion/train.py and ./Two-Stream/spatial/train.py to train the model and use ./Two-Stream/Fusion/test.py to output the result.
+	
 5. Expression
-1) Use [this hybrid model](https://github.com/lidian007/EmotiW2016) to get the expression result of the video. This model is the winner of EmotiW2016. The result is saved as txt file.
-2) To combine the expression feature into the above two models, set the parameter "withexpression" to "True" in the train.py and test.py and set the parameter "expression_path" to the expression result folder.
-3) Retrain the models.
+    1) Use [this hybrid model](https://github.com/lidian007/EmotiW2016) to get the expression result of the video. This model is the winner of EmotiW2016. The result is saved as txt file.
+    2) To combine the expression feature into the above two models, set the parameter "withexpression" to "True" in the train.py and test.py and set the parameter "expression_path" to the expression result folder.
+    3) Retrain the models.
 
 6. Fusion to get the final result
-Run ./Hybrid_Fusion/Fusion.py to get the final reuslt of the hybrid model.
+    Run ./Hybrid_Fusion/Fusion.py to get the final reuslt of the hybrid model.
 
 
 ### Citation
