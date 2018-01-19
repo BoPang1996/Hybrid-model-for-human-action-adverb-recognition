@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3433e0c0-ff28-4108-8eb9-da2c49da8112" name="400" url="http://202.121.182.216">
+        <fileTransfer host="202.121.182.216" port="20400" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="20400" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

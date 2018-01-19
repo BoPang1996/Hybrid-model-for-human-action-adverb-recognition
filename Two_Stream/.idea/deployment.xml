@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="20400" showNewOnTargetInSync="false">
+    <serverData>
+      <paths name="20400">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/poli/ADHA_two_stream" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
