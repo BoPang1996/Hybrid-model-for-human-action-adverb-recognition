@@ -1,5 +1,5 @@
 # Hybrid-model-for-human-action-adverb-recognition
-By Bo Pang, Kaiwen Zha, [Cewu Lu](https://cvsjtu.wordpress.com/).
+By Bo Pang, Kaiwen Zha, [Cewu Lu](http://mvig.sjtu.edu.cn/).
 
 ### Introduction
 
