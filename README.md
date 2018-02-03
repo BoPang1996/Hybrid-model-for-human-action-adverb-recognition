@@ -44,7 +44,7 @@ The framework of the model is like this:
 ### Citation
 Please cite the paper in your publications if it helps your research:    
   
-    @inproceedings{bo2018adha,
+    @inproceedings{pang2018adha,
       title={Human Action Adverb Recognition: ADHA Dataset and A Hybrid Model},
       author={Bo, Pang and Zha, Kaiwen and Lu, Cewu},
       booktitle={ArXiv preprint},
