@@ -71,7 +71,7 @@ for i in range(len(videoinfo)):
                 for a, h in enumerate(img):
                     for b, l in enumerate(h):
                         for c, _ in enumerate(l):
-                            if a < bbox[1] or a > bbox[1] + bbox[3] or b < bbox[0] or b > bbox[0] + bbox[2]
+                            if a < bbox[1] or a > bbox[1] + bbox[3] or b < bbox[0] or b > bbox[0] + bbox[2]:
                                 if img[a,b,c] > decay:
                                     img[a, b, c] = img[a,b,c] - decay
                                 else:
