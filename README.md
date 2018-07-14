@@ -3,7 +3,7 @@ By Bo Pang, Kaiwen Zha, [Cewu Lu](http://mvig.sjtu.edu.cn/).
 
 ### Introduction
 
-[ADHA](http://www.mvig.sjtu.edu.cn/research/adha/adha.html) is the first human action adverb recognition dataset. This hybrid model is the baseline of this dataset.
+[ADHA](http://mvig.sjtu.edu.cn/research/adha/adha.html) is the first human action adverb recognition dataset. This hybrid model is the baseline of this dataset.
 The model is a fusion of two-stream model, pose-based LSTM model and expression model. The expression information is acting as a feature that combined into the CNN feature of the PBLSTM and Two-Stream model.
 The framework of the model is like this:
 
