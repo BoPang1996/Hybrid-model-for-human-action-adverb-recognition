@@ -18,7 +18,7 @@ The framework of the model is like this:
   git clone https://github.com/BoPang1996/Hybrid-model-for-human-action-adverb-recognition.git
   cd Hybrid-model-for-human-action-adverb-recognition
   ```
- 
+
 2. Get the dataset:
  You can download the ADHA dataset from [here](http://www.mvig.org/research/adha/download.html)
 
@@ -43,14 +43,14 @@ The framework of the model is like this:
 
 ### Citation
 Please cite the paper in your publications if it helps your research:    
-  
+
     @inproceedings{pang2018adha,
       title={Human Action Adverb Recognition: ADHA Dataset and A Hybrid Model},
       author={Bo, Pang and Zha, Kaiwen and Lu, Cewu},
       booktitle={ArXiv preprint},
       year={2018}
     }
-      
+
 ### Acknowledgements
 
-Thanks to [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [Hybrid expression model](https://github.com/lidian007/EmotiW2016).
+Thanks to [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) and [Hybrid expression model](https://github.com/lidian007/EmotiW2016). 
